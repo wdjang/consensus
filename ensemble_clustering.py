@@ -12,7 +12,13 @@ import h5py
 
 
 def do_clustering(input_data, label_list, cluster_num, min_k, max_k):
+<<<<<<< HEAD
  
+=======
+
+  input_data = input_data.transpose()
+  
+>>>>>>> 1766239020b50d79882ffea7abb3216ec407cdf0
   # ==================================================================================
   # Compute consensus affinity matrix
   # ==================================================================================
@@ -113,7 +119,11 @@ def do_clustering(input_data, label_list, cluster_num, min_k, max_k):
   fig['layout'].update(height=1080, width=1920, title='Signatures of Clusters',
                        showlegend=False)
   for c_id in cluster_list:
+<<<<<<< HEAD
       fig['layout']['yaxis'+str(c_id+1)].update(range=[0, 1])
+=======
+      fig['layout']['yaxis'+str(c_id+1)].update(range=[-1, 1])
+>>>>>>> 1766239020b50d79882ffea7abb3216ec407cdf0
   plotlyoff.plot(fig, filename='output/cluster_signature.html')
 
   # =====================================================================================
