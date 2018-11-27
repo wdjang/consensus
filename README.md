@@ -6,8 +6,4 @@ The repository hosts source code for Docker containers used for making cell stat
  * mink, maxk - The minimum and maximum number of clusters to try (this is valid only when k=0)
  * data - Filename of segmented CyCIF data that will appears in input/ directory of the container
  * markers - List of markers that should be used for clustering
-<<<<<<< HEAD
  * sampleratio - Ratio of samples to use for clustering (1 to use all cells, 0.5 to use 50% cells)
-=======
- * samplesize - Number of samples to use for clustering (0 to use all cells)
->>>>>>> 1766239020b50d79882ffea7abb3216ec407cdf0

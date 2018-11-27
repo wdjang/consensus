@@ -1,13 +1,7 @@
 mink: 2
-<<<<<<< HEAD
 maxk: 3
 k: 0
-data: norm25546POST.csv
-=======
-maxk: 10
-k: 0
 data: norm26531ON.csv
->>>>>>> 1766239020b50d79882ffea7abb3216ec407cdf0
 markers:
 - S100
 - KI67
@@ -32,8 +26,4 @@ markers:
 - NGFR
 - HES1
 - pERKz
-<<<<<<< HEAD
 sampleratio: 0.005
-=======
-samplesize: 10000
->>>>>>> 1766239020b50d79882ffea7abb3216ec407cdf0
