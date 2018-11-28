@@ -13,8 +13,6 @@ def marker_extraction(data_array, label_list, marker_list):
 
   return extracted_marker
 
->>>>>>> 1766239020b50d79882ffea7abb3216ec407cdf0
-
 # =========================================================================
 # Perform sampling and normalization
 # =========================================================================
